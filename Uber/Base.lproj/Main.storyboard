@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Guide Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Guide" id="BYZ-38-t0r" customClass="GuidePage" customModule="Uber" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-67" translatesAutoresizingMaskIntoConstraints="NO" id="EsD-GL-zJc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.28050881410256412" green="0.28050881410256412" blue="0.28050881410256412" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BM-JC-QKW">
+                                <rect key="frame" x="245" y="502" width="30" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="BCE-mk-Tpw"/>
+                                    <constraint firstAttribute="height" constant="30" id="aaJ-2P-2tP"/>
+                                </constraints>
+                                <state key="normal" title="注册"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMD-Gx-gvw">
+                                <rect key="frame" x="41" y="502" width="30" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SIU-1P-yk3"/>
+                                    <constraint firstAttribute="width" constant="46" id="y7M-J8-fFE"/>
+                                </constraints>
+                                <state key="normal" title="登录"/>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EsD-GL-zJc" secondAttribute="bottom" id="2cB-4L-p3C"/>
+                            <constraint firstItem="xMD-Gx-gvw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="8vM-tb-pGv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xMD-Gx-gvw" secondAttribute="bottom" constant="36" id="KA6-ng-IGm"/>
+                            <constraint firstItem="xMD-Gx-gvw" firstAttribute="height" secondItem="8BM-JC-QKW" secondAttribute="height" id="S5c-Et-H0r"/>
+                            <constraint firstItem="8BM-JC-QKW" firstAttribute="width" secondItem="xMD-Gx-gvw" secondAttribute="width" id="SOu-ea-nlr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8BM-JC-QKW" secondAttribute="bottom" constant="36" id="XZ2-yc-R0p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8BM-JC-QKW" secondAttribute="trailing" constant="17" id="baT-PQ-upQ"/>
+                            <constraint firstAttribute="trailing" secondItem="EsD-GL-zJc" secondAttribute="trailing" id="lkJ-0w-SXX"/>
+                            <constraint firstItem="EsD-GL-zJc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uqp-pY-ZLO"/>
+                            <constraint firstItem="EsD-GL-zJc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="wuY-Jh-CfA"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="backImageView" destination="EsD-GL-zJc" id="MZi-iE-ACN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="233" y="276"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo-67" width="277" height="277"/>
+    </resources>
 </document>
