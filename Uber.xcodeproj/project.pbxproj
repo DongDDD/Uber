@@ -29,6 +29,7 @@
 		C5903A231C565C5B0001B448 /* FxLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A221C565C5B0001B448 /* FxLogin.swift */; };
 		C5903A251C565C710001B448 /* FxRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A241C565C710001B448 /* FxRegister.swift */; };
 		C5903A271C565C910001B448 /* FxGetCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A261C565C910001B448 /* FxGetCars.swift */; };
+		C5FD02A41C5D159300BD9F2B /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5FD02A31C5D159300BD9F2B /* welcome_video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		C5903A221C565C5B0001B448 /* FxLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxLogin.swift; sourceTree = "<group>"; };
 		C5903A241C565C710001B448 /* FxRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxRegister.swift; sourceTree = "<group>"; };
 		C5903A261C565C910001B448 /* FxGetCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxGetCars.swift; sourceTree = "<group>"; };
+		C5FD02A31C5D159300BD9F2B /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = welcome_video.mp4; path = "../../UI资源/Video/welcome_video.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 		C5903A151C5654930001B448 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C5FD02A21C5D14FD00BD9F2B /* Video */,
 				C5903A181C5654BF0001B448 /* Xib */,
 				C5903A171C5654B50001B448 /* Images */,
 				C5903A161C5654A80001B448 /* Config */,
@@ -280,6 +283,14 @@
 				C539FDF81C5BA38200683B6E /* GuidePage.swift */,
 			);
 			name = Page;
+			sourceTree = "<group>";
+		};
+		C5FD02A21C5D14FD00BD9F2B /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				C5FD02A31C5D159300BD9F2B /* welcome_video.mp4 */,
+			);
+			name = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FD02A41C5D159300BD9F2B /* welcome_video.mp4 in Resources */,
 				C58AF3BD1C5648FA00A41A48 /* LaunchScreen.storyboard in Resources */,
 				C539FDEB1C5B985B00683B6E /* GuidePage.xib in Resources */,
 				C58AF3BA1C5648FA00A41A48 /* Assets.xcassets in Resources */,

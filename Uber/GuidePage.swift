@@ -7,16 +7,29 @@
 //
 
 import UIKit
+import AVFoundation
 
 class GuidePage: FxBaseController {
  
     @IBOutlet weak var backImageView: UIImageView!
-    
+    @IBOutlet weak var backView: UIView!
+    var player:AVPlayer!
+    var playerItem:AVPlayerItem!
     override func viewDidLoad() {
-        super.viewDidLoad()
+     super.viewDidLoad()
+     self.initPlayVideo()
      self.doAnimation()
+      
         
     }
+//    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+//        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+//    }
+//
+//    required init?(coder aDecoder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -28,6 +41,7 @@ class GuidePage: FxBaseController {
         var images:[UIImage]=[]
         var image:UIImage?
         var imageName:String?
+        //欢迎界面动画
         for var index=0; index<=67; index++ {
             imageName = "logo-" + String(index)
             image = UIImage(named: imageName!)
@@ -38,17 +52,37 @@ class GuidePage: FxBaseController {
         backImageView?.animationRepeatCount = 1
         backImageView?.animationDuration = 5
         backImageView?.startAnimating()
+        UIView.animateWithDuration(0.7, delay: 5, options: .CurveEaseOut, animations: { () -> Void in
+            self.backView?.alpha = 1.0
+            self.player?.play()
+            }, completion: {
+                finished in
+                print ( "Animation End" )
+        })
+        
+    }
+    func initPlayVideo(){
+        //初始化播放器
+        let path = NSBundle.mainBundle().pathForResource("welcome_video", ofType: "mp4")
+        let url = NSURL.fileURLWithPath(path!)
+        
+        playerItem = AVPlayerItem(URL: url)
+        player = AVPlayer(playerItem: playerItem)
+        
+        let playerLayer = AVPlayerLayer(player: player)
+        
+        playerLayer.frame = backView!.bounds
+        //让视频等比例缩放
+        playerLayer.videoGravity = AVLayerVideoGravityResizeAspect
+        
+        
+        backView.layer.insertSublayer(playerLayer, atIndex: 0)
+        backView.alpha = 0.0
     }
     
+    
+    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
