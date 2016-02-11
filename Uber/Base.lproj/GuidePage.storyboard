@@ -8,7 +8,7 @@
         <!--Guide Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Guide" id="BYZ-38-t0r" customClass="GuidePage" customModule="Uber" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Guide" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="GuidePage" customModule="Uber" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -36,6 +36,9 @@
                                                 <exclude reference="hoC-Pb-dmw"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="doLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYs-FZ-lWx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oD-wb-vfq">
                                         <rect key="frame" x="165" y="508" width="140" height="44"/>
@@ -50,10 +53,18 @@
                                         <state key="normal" title="注册">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="doRegister" destination="BYZ-38-t0r" eventType="touchUpInside" id="lZj-13-gco"/>
+                                        </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-67" translatesAutoresizingMaskIntoConstraints="NO" id="EsD-GL-zJc">
+                                        <rect key="frame" x="0.0" y="55" width="320" height="457"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    </imageView>
                                 </subviews>
                                 <animations/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="1L4-5g-JXd" secondAttribute="bottom" constant="16" id="AGN-Ti-RzH"/>
                                     <constraint firstAttribute="bottom" secondItem="7oD-wb-vfq" secondAttribute="bottom" constant="16" id="b21-8o-Z9U"/>
@@ -62,29 +73,20 @@
                                     <constraint firstItem="7oD-wb-vfq" firstAttribute="leading" secondItem="1L4-5g-JXd" secondAttribute="trailing" constant="8" id="kjb-SE-FeV"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-67" translatesAutoresizingMaskIntoConstraints="NO" id="EsD-GL-zJc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EsD-GL-zJc" secondAttribute="bottom" id="0SP-fT-2oa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WCI-MO-88m" secondAttribute="bottom" id="1ZY-ci-fU7"/>
                             <constraint firstItem="WCI-MO-88m" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="73q-8d-H2C"/>
-                            <constraint firstItem="EsD-GL-zJc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="EQE-tc-zPR"/>
                             <constraint firstAttribute="trailing" secondItem="WCI-MO-88m" secondAttribute="trailing" id="S1L-e5-gv1"/>
-                            <constraint firstItem="EsD-GL-zJc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TbZ-uc-ZDK"/>
-                            <constraint firstAttribute="trailing" secondItem="EsD-GL-zJc" secondAttribute="trailing" id="dA1-PB-XgF"/>
                             <constraint firstItem="WCI-MO-88m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hQx-bQ-8pe"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="backImageView" destination="EsD-GL-zJc" id="MZi-iE-ACN"/>
-                        <outlet property="backView" destination="WCI-MO-88m" id="C7l-i3-wc5"/>
+                        <outlet property="backView" destination="WCI-MO-88m" id="iIS-dU-t4p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

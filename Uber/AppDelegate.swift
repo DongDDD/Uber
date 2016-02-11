@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func showGuidePage(){
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        let page = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Guide")
+        let page = UIStoryboard(name: "GuidePage", bundle: nil).instantiateViewControllerWithIdentifier("Guide")
         self.window?.rootViewController = page
          self.window?.makeKeyAndVisible()
     }

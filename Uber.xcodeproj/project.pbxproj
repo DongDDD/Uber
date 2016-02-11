@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C539FDEB1C5B985B00683B6E /* GuidePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C539FDEA1C5B985B00683B6E /* GuidePage.xib */; };
 		C539FDEF1C5B9F1800683B6E /* FxBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539FDEE1C5B9F1800683B6E /* FxBaseController.swift */; };
 		C539FDF11C5B9F7500683B6E /* FxbasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539FDF01C5B9F7500683B6E /* FxbasePage.swift */; };
 		C539FDF31C5B9FAB00683B6E /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539FDF21C5B9FAB00683B6E /* RegisterPage.swift */; };
 		C539FDF51C5B9FD200683B6E /* BindPayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539FDF41C5B9FD200683B6E /* BindPayPage.swift */; };
 		C539FDF71C5BA00500683B6E /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539FDF61C5BA00500683B6E /* LoginPage.swift */; };
 		C539FDF91C5BA38200683B6E /* GuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539FDF81C5BA38200683B6E /* GuidePage.swift */; };
+		C5793EBE1C6B81F400F7841F /* UserInfoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5793EBD1C6B81F400F7841F /* UserInfoPage.storyboard */; };
 		C58067E41C5A8D55004EBC73 /* Fxdefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58067E31C5A8D55004EBC73 /* Fxdefine.swift */; };
 		C58AF3B31C5648FA00A41A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AF3B21C5648FA00A41A48 /* AppDelegate.swift */; };
 		C58AF3B51C5648FA00A41A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AF3B41C5648FA00A41A48 /* ViewController.swift */; };
-		C58AF3B81C5648FA00A41A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58AF3B61C5648FA00A41A48 /* Main.storyboard */; };
+		C58AF3B81C5648FA00A41A48 /* GuidePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58AF3B61C5648FA00A41A48 /* GuidePage.storyboard */; };
 		C58AF3BA1C5648FA00A41A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58AF3B91C5648FA00A41A48 /* Assets.xcassets */; };
 		C58AF3BD1C5648FA00A41A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58AF3BB1C5648FA00A41A48 /* LaunchScreen.storyboard */; };
 		C58AF3C81C5648FA00A41A48 /* UberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AF3C71C5648FA00A41A48 /* UberTests.swift */; };
 		C58AF3D31C5648FA00A41A48 /* UberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AF3D21C5648FA00A41A48 /* UberUITests.swift */; };
+		C58BAA1C1C6775E4009C8D25 /* selectCountryPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58BAA1B1C6775E4009C8D25 /* selectCountryPage.storyboard */; };
+		C58BAA1E1C6776E9009C8D25 /* SelectCountryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BAA1D1C6776E9009C8D25 /* SelectCountryPage.swift */; };
+		C58BAA201C6778AA009C8D25 /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BAA1F1C6778AA009C8D25 /* CountryInfo.swift */; };
 		C5903A1B1C565ACD0001B448 /* BaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A1A1C565ACD0001B448 /* BaseInfo.swift */; };
 		C5903A1D1C565B760001B448 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A1C1C565B760001B448 /* UserInfo.swift */; };
 		C5903A1F1C565BAD0001B448 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A1E1C565BAD0001B448 /* LocationInfo.swift */; };
@@ -29,6 +32,22 @@
 		C5903A231C565C5B0001B448 /* FxLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A221C565C5B0001B448 /* FxLogin.swift */; };
 		C5903A251C565C710001B448 /* FxRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A241C565C710001B448 /* FxRegister.swift */; };
 		C5903A271C565C910001B448 /* FxGetCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5903A261C565C910001B448 /* FxGetCars.swift */; };
+		C599A1D91C6125E6009DD744 /* FxLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599A1D81C6125E6009DD744 /* FxLocation.swift */; };
+		C5B557A71C6CB75D00ACB221 /* AddPayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B557A61C6CB75D00ACB221 /* AddPayPage.swift */; };
+		C5B557A91C6CBAB700ACB221 /* PayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B557A81C6CBAB700ACB221 /* PayInfo.swift */; };
+		C5B557AF1C6CBF6600ACB221 /* AliPay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B557AB1C6CBF6600ACB221 /* AliPay@2x.png */; };
+		C5B557B01C6CBF6600ACB221 /* BaiDuWallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B557AC1C6CBF6600ACB221 /* BaiDuWallet@2x.png */; };
+		C5B557B11C6CBF6600ACB221 /* CreditCard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B557AD1C6CBF6600ACB221 /* CreditCard@2x.png */; };
+		C5B557B21C6CBF6600ACB221 /* YinLian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B557AE1C6CBF6600ACB221 /* YinLian@2x.png */; };
+		C5B557B61C6CC5A300ACB221 /* YinLianPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B557B51C6CC5A300ACB221 /* YinLianPage.swift */; };
+		C5CEE11A1C63974D002A5C23 /* CreateCountPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CEE1191C63974D002A5C23 /* CreateCountPage.storyboard */; };
+		C5DF70A81C62521500B9125B /* FxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DF70A51C62521500B9125B /* FxActivity.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C5DF70A91C62521500B9125B /* FxActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DF70A71C62521500B9125B /* FxActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C5E44C3D1C63712900DA2D24 /* CreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E44C3C1C63712900DA2D24 /* CreateAccountPage.swift */; };
+		C5F4C9AE1C62700F00E2E0E8 /* Loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F4C9AD1C62700F00E2E0E8 /* Loading@2x.png */; };
+		C5F993241C67987E00BCB13E /* FxString.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F993231C67987E00BCB13E /* FxString.m */; };
+		C5FBAC511C6B8A6D009B704E /* UserInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FBAC501C6B8A6D009B704E /* UserInfoPage.swift */; };
+		C5FC5C3E1C6CED6E007EA2ED /* AddPayPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FC5C3D1C6CED6E007EA2ED /* AddPayPage.storyboard */; };
 		C5FD02A41C5D159300BD9F2B /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5FD02A31C5D159300BD9F2B /* welcome_video.mp4 */; };
 /* End PBXBuildFile section */
 
@@ -50,18 +69,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C539FDEA1C5B985B00683B6E /* GuidePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuidePage.xib; sourceTree = "<group>"; };
 		C539FDEE1C5B9F1800683B6E /* FxBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxBaseController.swift; sourceTree = "<group>"; };
 		C539FDF01C5B9F7500683B6E /* FxbasePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FxbasePage.swift; path = ../FxbasePage.swift; sourceTree = "<group>"; };
 		C539FDF21C5B9FAB00683B6E /* RegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
 		C539FDF41C5B9FD200683B6E /* BindPayPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindPayPage.swift; sourceTree = "<group>"; };
 		C539FDF61C5BA00500683B6E /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		C539FDF81C5BA38200683B6E /* GuidePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidePage.swift; sourceTree = "<group>"; };
+		C5793EBD1C6B81F400F7841F /* UserInfoPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserInfoPage.storyboard; sourceTree = "<group>"; };
 		C58067E31C5A8D55004EBC73 /* Fxdefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fxdefine.swift; sourceTree = "<group>"; };
 		C58AF3AF1C5648FA00A41A48 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58AF3B21C5648FA00A41A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C58AF3B41C5648FA00A41A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C58AF3B71C5648FA00A41A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C58AF3B71C5648FA00A41A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GuidePage.storyboard; sourceTree = "<group>"; };
 		C58AF3B91C5648FA00A41A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C58AF3BC1C5648FA00A41A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C58AF3BE1C5648FA00A41A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +90,9 @@
 		C58AF3CE1C5648FA00A41A48 /* UberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58AF3D21C5648FA00A41A48 /* UberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberUITests.swift; sourceTree = "<group>"; };
 		C58AF3D41C5648FA00A41A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58BAA1B1C6775E4009C8D25 /* selectCountryPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = selectCountryPage.storyboard; sourceTree = "<group>"; };
+		C58BAA1D1C6776E9009C8D25 /* SelectCountryPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCountryPage.swift; sourceTree = "<group>"; };
+		C58BAA1F1C6778AA009C8D25 /* CountryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
 		C5903A1A1C565ACD0001B448 /* BaseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInfo.swift; sourceTree = "<group>"; };
 		C5903A1C1C565B760001B448 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		C5903A1E1C565BAD0001B448 /* LocationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
@@ -78,6 +100,26 @@
 		C5903A221C565C5B0001B448 /* FxLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxLogin.swift; sourceTree = "<group>"; };
 		C5903A241C565C710001B448 /* FxRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxRegister.swift; sourceTree = "<group>"; };
 		C5903A261C565C910001B448 /* FxGetCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxGetCars.swift; sourceTree = "<group>"; };
+		C599A1D81C6125E6009DD744 /* FxLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FxLocation.swift; sourceTree = "<group>"; };
+		C5B557A61C6CB75D00ACB221 /* AddPayPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPayPage.swift; sourceTree = "<group>"; };
+		C5B557A81C6CBAB700ACB221 /* PayInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayInfo.swift; sourceTree = "<group>"; };
+		C5B557AB1C6CBF6600ACB221 /* AliPay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AliPay@2x.png"; sourceTree = "<group>"; };
+		C5B557AC1C6CBF6600ACB221 /* BaiDuWallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BaiDuWallet@2x.png"; sourceTree = "<group>"; };
+		C5B557AD1C6CBF6600ACB221 /* CreditCard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreditCard@2x.png"; sourceTree = "<group>"; };
+		C5B557AE1C6CBF6600ACB221 /* YinLian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YinLian@2x.png"; sourceTree = "<group>"; };
+		C5B557B51C6CC5A300ACB221 /* YinLianPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YinLianPage.swift; sourceTree = "<group>"; };
+		C5CEE1191C63974D002A5C23 /* CreateCountPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateCountPage.storyboard; sourceTree = "<group>"; };
+		C5DF70A31C62521400B9125B /* Uber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Uber-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5DF70A41C62521500B9125B /* FxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FxActivity.h; path = "../../源代码_Alatan /Uber/Utility/FxActivity.h"; sourceTree = "<group>"; };
+		C5DF70A51C62521500B9125B /* FxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FxActivity.m; path = "../../源代码_Alatan /Uber/Utility/FxActivity.m"; sourceTree = "<group>"; };
+		C5DF70A61C62521500B9125B /* FxActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FxActivityIndicator.h; path = "../../源代码_Alatan /Uber/Utility/FxActivityIndicator.h"; sourceTree = "<group>"; };
+		C5DF70A71C62521500B9125B /* FxActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FxActivityIndicator.m; path = "../../源代码_Alatan /Uber/Utility/FxActivityIndicator.m"; sourceTree = "<group>"; };
+		C5E44C3C1C63712900DA2D24 /* CreateAccountPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountPage.swift; sourceTree = "<group>"; };
+		C5F4C9AD1C62700F00E2E0E8 /* Loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Loading@2x.png"; path = "../../UI资源/Images/Loading/Loading@2x.png"; sourceTree = "<group>"; };
+		C5F993221C67987E00BCB13E /* FxString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FxString.h; path = "../../源代码_Alatan /Uber/FxString.h"; sourceTree = "<group>"; };
+		C5F993231C67987E00BCB13E /* FxString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FxString.m; path = "../../源代码_Alatan /Uber/FxString.m"; sourceTree = "<group>"; };
+		C5FBAC501C6B8A6D009B704E /* UserInfoPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoPage.swift; sourceTree = "<group>"; };
+		C5FC5C3D1C6CED6E007EA2ED /* AddPayPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddPayPage.storyboard; sourceTree = "<group>"; };
 		C5FD02A31C5D159300BD9F2B /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = welcome_video.mp4; path = "../../UI资源/Video/welcome_video.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +178,7 @@
 				C5903A101C5654030001B448 /* View */,
 				C5903A0F1C5653CD0001B448 /* Operation */,
 				C5903A0D1C5653560001B448 /* Global */,
+				C5DF70A21C6251B400B9125B /* Utility */,
 				C5903A141C56543E0001B448 /* Define */,
 				C5903A191C5654D40001B448 /* Frameworks */,
 				C5903A151C5654930001B448 /* Resources */,
@@ -164,6 +207,7 @@
 		C5903A0D1C5653560001B448 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				C599A1D81C6125E6009DD744 /* FxLocation.swift */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -174,6 +218,8 @@
 				C5903A1A1C565ACD0001B448 /* BaseInfo.swift */,
 				C5903A1C1C565B760001B448 /* UserInfo.swift */,
 				C5903A1E1C565BAD0001B448 /* LocationInfo.swift */,
+				C58BAA1F1C6778AA009C8D25 /* CountryInfo.swift */,
+				C5B557A81C6CBAB700ACB221 /* PayInfo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -225,6 +271,7 @@
 				C58AF3B21C5648FA00A41A48 /* AppDelegate.swift */,
 				C58AF3B41C5648FA00A41A48 /* ViewController.swift */,
 				C58067E31C5A8D55004EBC73 /* Fxdefine.swift */,
+				C5DF70A31C62521400B9125B /* Uber-Bridging-Header.h */,
 			);
 			name = Define;
 			sourceTree = "<group>";
@@ -233,7 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				C5FD02A21C5D14FD00BD9F2B /* Video */,
-				C5903A181C5654BF0001B448 /* Xib */,
+				C5903A181C5654BF0001B448 /* storyboard */,
 				C5903A171C5654B50001B448 /* Images */,
 				C5903A161C5654A80001B448 /* Config */,
 			);
@@ -251,19 +298,24 @@
 		C5903A171C5654B50001B448 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C5B557AA1C6CBF6600ACB221 /* PayIcon */,
 				C58AF3B91C5648FA00A41A48 /* Assets.xcassets */,
+				C5F4C9AD1C62700F00E2E0E8 /* Loading@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
 		};
-		C5903A181C5654BF0001B448 /* Xib */ = {
+		C5903A181C5654BF0001B448 /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				C58AF3B61C5648FA00A41A48 /* Main.storyboard */,
 				C58AF3BB1C5648FA00A41A48 /* LaunchScreen.storyboard */,
-				C539FDEA1C5B985B00683B6E /* GuidePage.xib */,
+				C58AF3B61C5648FA00A41A48 /* GuidePage.storyboard */,
+				C5CEE1191C63974D002A5C23 /* CreateCountPage.storyboard */,
+				C58BAA1B1C6775E4009C8D25 /* selectCountryPage.storyboard */,
+				C5793EBD1C6B81F400F7841F /* UserInfoPage.storyboard */,
+				C5FC5C3D1C6CED6E007EA2ED /* AddPayPage.storyboard */,
 			);
-			name = Xib;
+			name = storyboard;
 			sourceTree = "<group>";
 		};
 		C5903A191C5654D40001B448 /* Frameworks */ = {
@@ -281,8 +333,38 @@
 				C539FDF41C5B9FD200683B6E /* BindPayPage.swift */,
 				C539FDF61C5BA00500683B6E /* LoginPage.swift */,
 				C539FDF81C5BA38200683B6E /* GuidePage.swift */,
+				C5E44C3C1C63712900DA2D24 /* CreateAccountPage.swift */,
+				C58BAA1D1C6776E9009C8D25 /* SelectCountryPage.swift */,
+				C5FBAC501C6B8A6D009B704E /* UserInfoPage.swift */,
+				C5B557A61C6CB75D00ACB221 /* AddPayPage.swift */,
+				C5B557B51C6CC5A300ACB221 /* YinLianPage.swift */,
 			);
 			name = Page;
+			sourceTree = "<group>";
+		};
+		C5B557AA1C6CBF6600ACB221 /* PayIcon */ = {
+			isa = PBXGroup;
+			children = (
+				C5B557AB1C6CBF6600ACB221 /* AliPay@2x.png */,
+				C5B557AC1C6CBF6600ACB221 /* BaiDuWallet@2x.png */,
+				C5B557AD1C6CBF6600ACB221 /* CreditCard@2x.png */,
+				C5B557AE1C6CBF6600ACB221 /* YinLian@2x.png */,
+			);
+			name = PayIcon;
+			path = "../../源代码_Alatan /Uber/Resources/Images/PayIcon";
+			sourceTree = "<group>";
+		};
+		C5DF70A21C6251B400B9125B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C5F993221C67987E00BCB13E /* FxString.h */,
+				C5F993231C67987E00BCB13E /* FxString.m */,
+				C5DF70A41C62521500B9125B /* FxActivity.h */,
+				C5DF70A51C62521500B9125B /* FxActivity.m */,
+				C5DF70A61C62521500B9125B /* FxActivityIndicator.h */,
+				C5DF70A71C62521500B9125B /* FxActivityIndicator.m */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 		C5FD02A21C5D14FD00BD9F2B /* Video */ = {
@@ -361,6 +443,7 @@
 				TargetAttributes = {
 					C58AF3AE1C5648FA00A41A48 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9N2SNV6VF6;
 					};
 					C58AF3C21C5648FA00A41A48 = {
 						CreatedOnToolsVersion = 7.1;
@@ -398,10 +481,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5FD02A41C5D159300BD9F2B /* welcome_video.mp4 in Resources */,
+				C5B557B01C6CBF6600ACB221 /* BaiDuWallet@2x.png in Resources */,
+				C5F4C9AE1C62700F00E2E0E8 /* Loading@2x.png in Resources */,
+				C5B557B11C6CBF6600ACB221 /* CreditCard@2x.png in Resources */,
+				C5B557AF1C6CBF6600ACB221 /* AliPay@2x.png in Resources */,
 				C58AF3BD1C5648FA00A41A48 /* LaunchScreen.storyboard in Resources */,
-				C539FDEB1C5B985B00683B6E /* GuidePage.xib in Resources */,
+				C5CEE11A1C63974D002A5C23 /* CreateCountPage.storyboard in Resources */,
 				C58AF3BA1C5648FA00A41A48 /* Assets.xcassets in Resources */,
-				C58AF3B81C5648FA00A41A48 /* Main.storyboard in Resources */,
+				C58BAA1C1C6775E4009C8D25 /* selectCountryPage.storyboard in Resources */,
+				C5FC5C3E1C6CED6E007EA2ED /* AddPayPage.storyboard in Resources */,
+				C5B557B21C6CBF6600ACB221 /* YinLian@2x.png in Resources */,
+				C5793EBE1C6B81F400F7841F /* UserInfoPage.storyboard in Resources */,
+				C58AF3B81C5648FA00A41A48 /* GuidePage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,20 +519,31 @@
 			files = (
 				C539FDF71C5BA00500683B6E /* LoginPage.swift in Sources */,
 				C539FDF51C5B9FD200683B6E /* BindPayPage.swift in Sources */,
+				C58BAA201C6778AA009C8D25 /* CountryInfo.swift in Sources */,
+				C599A1D91C6125E6009DD744 /* FxLocation.swift in Sources */,
 				C5903A1D1C565B760001B448 /* UserInfo.swift in Sources */,
 				C539FDF11C5B9F7500683B6E /* FxbasePage.swift in Sources */,
+				C5F993241C67987E00BCB13E /* FxString.m in Sources */,
 				C58067E41C5A8D55004EBC73 /* Fxdefine.swift in Sources */,
 				C539FDF91C5BA38200683B6E /* GuidePage.swift in Sources */,
 				C5903A231C565C5B0001B448 /* FxLogin.swift in Sources */,
 				C58AF3B51C5648FA00A41A48 /* ViewController.swift in Sources */,
+				C58BAA1E1C6776E9009C8D25 /* SelectCountryPage.swift in Sources */,
+				C5B557A91C6CBAB700ACB221 /* PayInfo.swift in Sources */,
 				C5903A1B1C565ACD0001B448 /* BaseInfo.swift in Sources */,
 				C5903A1F1C565BAD0001B448 /* LocationInfo.swift in Sources */,
 				C58AF3B31C5648FA00A41A48 /* AppDelegate.swift in Sources */,
+				C5DF70A81C62521500B9125B /* FxActivity.m in Sources */,
+				C5DF70A91C62521500B9125B /* FxActivityIndicator.m in Sources */,
 				C5903A251C565C710001B448 /* FxRegister.swift in Sources */,
 				C5903A211C565C3B0001B448 /* FxOperation.swift in Sources */,
+				C5E44C3D1C63712900DA2D24 /* CreateAccountPage.swift in Sources */,
 				C539FDEF1C5B9F1800683B6E /* FxBaseController.swift in Sources */,
+				C5B557B61C6CC5A300ACB221 /* YinLianPage.swift in Sources */,
+				C5FBAC511C6B8A6D009B704E /* UserInfoPage.swift in Sources */,
 				C5903A271C565C910001B448 /* FxGetCars.swift in Sources */,
 				C539FDF31C5B9FAB00683B6E /* RegisterPage.swift in Sources */,
+				C5B557A71C6CB75D00ACB221 /* AddPayPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,12 +579,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C58AF3B61C5648FA00A41A48 /* Main.storyboard */ = {
+		C58AF3B61C5648FA00A41A48 /* GuidePage.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C58AF3B71C5648FA00A41A48 /* Base */,
 			);
-			name = Main.storyboard;
+			name = GuidePage.storyboard;
 			sourceTree = "<group>";
 		};
 		C58AF3BB1C5648FA00A41A48 /* LaunchScreen.storyboard */ = {
@@ -581,11 +683,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.Uber;
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.UberPAN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -593,11 +700,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.Uber;
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.UberPAN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -690,12 +801,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.Uber;
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.UberPAN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
 			};
 			name = Appstore;
 		};
@@ -764,11 +879,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Uber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.Uber;
+				PRODUCT_BUNDLE_IDENTIFIER = maiziedu.com.UberPAN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Uber/Uber-Bridging-Header.h";
 			};
 			name = Adhoc;
 		};
